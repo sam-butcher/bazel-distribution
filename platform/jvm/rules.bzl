@@ -143,7 +143,7 @@ windowsMenuGroup: {}
     if ctx.file.icon:
         inputs = inputs + [ctx.file.icon]
         config = config + """
-iconPath: {}
+iconFile: {}
 """.format(ctx.file.icon.path)
 
     if ctx.file.license_file:
